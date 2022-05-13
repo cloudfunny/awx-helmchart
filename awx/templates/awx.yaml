@@ -3,6 +3,7 @@ apiVersion: awx.ansible.com/v1beta1
 kind: AWX
 metadata: 
   name: {{ .Release.Name | quote }}
+  namespace: {{ .Release.Namespace | quote }}
 spec:
   ingress_type: {{ .Values.ingress.type }}
   hostname: {{ .Values.ingress.hostname }}
