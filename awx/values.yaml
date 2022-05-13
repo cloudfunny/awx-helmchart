@@ -5,6 +5,12 @@
 # Install awx-operator if does not existing on your cluster
 awx_operator_enable: true
 
+# admin user configuration
+admin_user: admin
+admin_email: admin@example.com
+# admin password can be configure (optional)
+admin_password: ""
+
 # Ingress configuration
 # For example:   
 # ingress:
