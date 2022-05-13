@@ -1,0 +1,10 @@
+---
+apiVersion: awx.ansible.com/v1beta1
+kind: AWX
+metadata: 
+  name: {{ .Release.Name | quote }}
+spec:
+  ingress_type: {{ .Values.ingress.type }}
+  hostname: {{ .Values.ingress.hostname }}
+  ingress_annotations: "{{ .Values.ingress.annotations }}"
+    

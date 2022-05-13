@@ -1,0 +1,1 @@
+NetBox should be available at the following URL(s) shortly: {{ .Values.ingress.hostname }}

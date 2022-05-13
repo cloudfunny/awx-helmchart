@@ -1,0 +1,6 @@
+dependencies:
+- name: awx-operator
+  repository: https://ansible.github.io/awx-operator/
+  version: 0.21.0
+digest: sha256:9513b45d20d47efec9a9776743569ca9bbea849a83f56fc991462d0160fac4b0
+generated: "2022-05-13T04:19:06.517388792-04:00"
