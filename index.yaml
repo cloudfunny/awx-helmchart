@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  awx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-13T04:56:23.580154408-04:00"
+    dependencies:
+    - condition: awx_operator_enable
+      name: awx-operator
+      repository: https://ansible.github.io/awx-operator/
+      version: 0.21.0
+    description: A Helm chart for Kubernetes
+    digest: 658e79265ad12080ef118412d76cde513453116e62213c0a986db45af33c3296
+    name: awx
+    type: application
+    urls:
+    - https://cloudfunny.github.io/awx-helmchart/awx-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-05-13T04:56:23.579049414-04:00"
